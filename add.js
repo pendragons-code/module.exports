@@ -4,4 +4,4 @@ function add(a, b) {
 function number() {
     return add(3, 5)
 }
-module.exports ={ add: add, number: number };
+module.exports ={ add, number };
